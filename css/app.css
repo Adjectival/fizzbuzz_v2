@@ -10,18 +10,18 @@
 body {
   font-family: 'Luminari', cursive, serif;
   background: black;
-  /*-image: url("img/triangle_glass.png");*/
 }
 .row {
   border-radius: 15px;
+  padding-left: 6vw;
 }
 h1, h2, h3 {
   font-family: cursive;
   text-decoration: none;
   text-align: center;
   text-shadow:
-  4px 4px 10px gold,
-  -4px -4px 20px gold,
+  4px 4px 10px palegreen,
+  -4px -4px 20px palegreen,
   -4px 4px 20px red,
   4px -4px 10px red;
 }
@@ -47,10 +47,10 @@ tr > td {
 /*gradients*/
 .top-gradient {
   background: blanchedalmond; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#bcf4f5, #b4ebca, #d3fac7, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#bcf4f5, #b4ebca, #d3fac7, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#bcf4f5, #b4ebca, #d3fac7, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#bcf4f5, #b4ebca, #d3fac7, white); /* Standard syntax */
+    background: -webkit-linear-gradient(white, #d3fac7, #b4ebca, #bcf4f5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #d3fac7, #b4ebca, #bcf4f5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #d3fac7, #b4ebca, #bcf4f5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #d3fac7, #b4ebca, #bcf4f5); /* Standard syntax */
 }
 .bottom-gradient {
   background: blanchedalmond; /* For browsers that do not support gradients */
